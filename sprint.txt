@@ -1,0 +1,15 @@
+  -STRUCTURE DE PROJET 
+     -FRAMEWORK 
+        .sorti .jar coeur de notre projet ce n'est pas un projet web
+     -TEST
+      -projet web pour tester le jar de notre framework aucun autre lib doit etre importer
+
+
+==>ETAPE sprint0
+    -coté framework
+      -creation de front controller qui extend httpservelt
+         -objectif  il traitre tout les requette donc utilisation de process request 
+      -compilation du controller en oint jar et envoyer dans le lit de projet test  
+    coté test
+      -configuration  du web.xml  declararation du controller et definition du chemin root 
+      -script de deployement
